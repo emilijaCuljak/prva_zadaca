@@ -1,7 +1,8 @@
-Kreirala sam račun na GitHub-u prema uputama. 
-Stvorila sam SSH ključ radi jednostavnosti.
-Kreirala sam novi repozitorij. Koristila sam git init naredbu za to.
-Koristila sam pull naredbu da bi “povukla” taj prazan repozitorij.
-Pomoću naredbe git status dobila sam ispis stanja tog repozitorija.
-Naredbom git add sam dodala datoteke u taj repozitorij. 
-Pomoću git commit i git push sam predala repozitorij.
+#Kreirala sam račun na GitHub-u prema uputama. 
+#Stvorila sam SSH ključ radi jednostavnosti.
+git init #kreiranje novog repozitorija
+git pull https://github.com/emilijaCuljak/prva_zadaca.git #"povlačenje" praznog repozitorija
+git status #ispis stanja repozitorija
+git add . #dodavanje svih datoteka u repozitorij
+git commit #spremila promjene u lokalnom repozitoriju
+git push #stavlja promjene sa lokalnog repozitorija u GitHub
